@@ -1,0 +1,190 @@
+2025-05-16 19:16:36 [INFO] 🌐 App ready at: http://localhost:4000
+2025-05-16 19:16:36 [INFO] 🌍 Environment: staging
+2025-05-16 19:16:59 [INFO] ::1 - - [16/May/2025:16:16:59 +0000] "GET / HTTP/1.1" 404 29 "-" "PostmanRuntime/7.43.4"
+2025-05-16 19:17:39 [INFO] ::1 - - [16/May/2025:16:17:39 +0000] "GET /restaurants HTTP/1.1" 404 29 "-" "PostmanRuntime/7.43.4"
+2025-05-16 19:17:43 [ERROR] Error fetching restaurants:
+Error
+    at Object.createConnectionPromise [as createConnection] (/Users/panosru/Downloads/api/node_modules/mysql2/promise.js:19:31)
+    at getConnection (/Users/panosru/Downloads/api/src/models/restaurant.model.js:9:18)
+    at Object.getAllRestaurants (/Users/panosru/Downloads/api/src/models/restaurant.model.js:33:28)
+    at getAllRestaurants (/Users/panosru/Downloads/api/src/controllers/restaurantController.js:18:51)
+    at Layer.handle [as handle_request] (/Users/panosru/Downloads/api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/panosru/Downloads/api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/panosru/Downloads/api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/panosru/Downloads/api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/panosru/Downloads/api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/panosru/Downloads/api/node_modules/express/lib/router/index.js:346:12)
+2025-05-16 19:17:43 [INFO] ::1 - - [16/May/2025:16:17:43 +0000] "GET /api/restaurants HTTP/1.1" 500 51 "-" "PostmanRuntime/7.43.4"
+2025-05-16 19:18:35 [INFO] ::1 - - [16/May/2025:16:18:35 +0000] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 29 "-" "com.apple.WebKit.Networking/20621.2.5.11.8 CFNetwork/3826.500.131 Darwin/24.5.0"
+2025-05-16 19:18:35 [INFO] ::1 - - [16/May/2025:16:18:35 +0000] "GET /apple-touch-icon.png HTTP/1.1" 404 29 "-" "com.apple.WebKit.Networking/20621.2.5.11.8 CFNetwork/3826.500.131 Darwin/24.5.0"
+2025-05-16 19:18:35 [INFO] ::1 - - [16/May/2025:16:18:35 +0000] "GET /favicon.ico HTTP/1.1" 404 29 "-" "com.apple.WebKit.Networking/20621.2.5.11.8 CFNetwork/3826.500.131 Darwin/24.5.0"
+2025-05-16 19:18:35 [ERROR] Error fetching restaurants:
+Error
+    at Object.createConnectionPromise [as createConnection] (/Users/panosru/Downloads/api/node_modules/mysql2/promise.js:19:31)
+    at getConnection (/Users/panosru/Downloads/api/src/models/restaurant.model.js:9:18)
+    at Object.getAllRestaurants (/Users/panosru/Downloads/api/src/models/restaurant.model.js:33:28)
+    at getAllRestaurants (/Users/panosru/Downloads/api/src/controllers/restaurantController.js:18:51)
+    at Layer.handle [as handle_request] (/Users/panosru/Downloads/api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/panosru/Downloads/api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/panosru/Downloads/api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/panosru/Downloads/api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/panosru/Downloads/api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/panosru/Downloads/api/node_modules/express/lib/router/index.js:346:12)
+2025-05-16 19:18:36 [INFO] ::1 - - [16/May/2025:16:18:36 +0000] "GET /api/restaurants HTTP/1.1" 500 51 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/601.2.4 (KHTML, like Gecko) Version/9.0.1 Safari/601.2.4 facebookexternalhit/1.1 Facebot Twitterbot/1.0"
+2025-05-16 19:18:39 [ERROR] Error fetching restaurants:
+Error
+    at Object.createConnectionPromise [as createConnection] (/Users/panosru/Downloads/api/node_modules/mysql2/promise.js:19:31)
+    at getConnection (/Users/panosru/Downloads/api/src/models/restaurant.model.js:9:18)
+    at Object.getAllRestaurants (/Users/panosru/Downloads/api/src/models/restaurant.model.js:33:28)
+    at getAllRestaurants (/Users/panosru/Downloads/api/src/controllers/restaurantController.js:18:51)
+    at Layer.handle [as handle_request] (/Users/panosru/Downloads/api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/panosru/Downloads/api/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/panosru/Downloads/api/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/panosru/Downloads/api/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/panosru/Downloads/api/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/panosru/Downloads/api/node_modules/express/lib/router/index.js:346:12)
+2025-05-16 19:18:39 [INFO] ::1 - - [16/May/2025:16:18:39 +0000] "GET /api/restaurants HTTP/1.1" 500 51 "-" "PostmanRuntime/7.43.4"
+2025-05-16 19:20:11 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-16 19:20:31 [INFO] 🌐 App ready at: http://localhost:4000
+2025-05-16 19:20:31 [INFO] 🌍 Environment: staging
+2025-05-16 19:20:35 [INFO] ::1 - - [16/May/2025:16:20:35 +0000] "GET /api/restaurants HTTP/1.1" 200 2772 "-" "PostmanRuntime/7.43.4"
+2025-05-16 19:21:14 [INFO] ::1 - - [16/May/2025:16:21:14 +0000] "GET /api/restaurants/7942e3e7-16ed-11f0-978b-76eaf385044d HTTP/1.1" 200 184 "-" "PostmanRuntime/7.43.4"
+2025-05-16 19:21:26 [INFO] ::1 - - [16/May/2025:16:21:26 +0000] "GET /api/restaurants/7942e3e7-16ed-11f0-978b-76eaf385044d HTTP/1.1" 200 184 "-" "PostmanRuntime/7.43.4"
+2025-05-16 19:21:29 [INFO] ::1 - - [16/May/2025:16:21:29 +0000] "GET /api/reservations HTTP/1.1" 200 11331 "-" "PostmanRuntime/7.43.4"
+2025-05-16 19:21:31 [INFO] ::1 - - [16/May/2025:16:21:31 +0000] "GET /api/reservations/79435813-16ed-11f0-978b-76eaf385044d HTTP/1.1" 200 230 "-" "PostmanRuntime/7.43.4"
+2025-05-16 19:31:32 [INFO] ::1 - - [16/May/2025:16:31:32 +0000] "GET /api/reservations/79435813-16ed-11f0-978b-76eaf385044d HTTP/1.1" 200 230 "-" "PostmanRuntime/7.43.4"
+2025-05-16 19:33:40 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-16 19:33:40 [INFO] 🌐 App ready at: http://localhost:4000
+2025-05-16 19:33:40 [INFO] 🌍 Environment: staging
+2025-05-16 19:33:47 [INFO] ::1 - - [16/May/2025:16:33:47 +0000] "GET /api/reservations/79435813-16ed-11f0-978b-76eaf385044d HTTP/1.1" 200 356 "-" "PostmanRuntime/7.43.4"
+2025-05-16 19:50:09 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-16 19:50:09 [INFO] 🌐 App ready at: http://localhost:4000
+2025-05-16 19:50:09 [INFO] 🌍 Environment: staging
+2025-05-16 19:58:27 [INFO] ::ffff:127.0.0.1 - - [16/May/2025:16:58:27 +0000] "GET /api/restaurants HTTP/1.1" 200 2772 "-" "okhttp/4.12.0"
+2025-05-16 20:00:19 [INFO] ::ffff:127.0.0.1 - - [16/May/2025:17:00:19 +0000] "GET /api/restaurants HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-05-16 20:47:44 [INFO] ::ffff:127.0.0.1 - - [16/May/2025:17:47:44 +0000] "GET /api/restaurants HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-05-16 20:49:09 [INFO] ::ffff:127.0.0.1 - - [16/May/2025:17:49:09 +0000] "GET /api/reservations?user_id=2 HTTP/1.1" 200 2327 "-" "okhttp/4.12.0"
+2025-05-16 20:49:27 [INFO] ::ffff:127.0.0.1 - - [16/May/2025:17:49:27 +0000] "GET /api/restaurants HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-05-16 20:50:04 [INFO] ::ffff:127.0.0.1 - - [16/May/2025:17:50:04 +0000] "GET /api/restaurants HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-05-16 20:50:21 [INFO] ::ffff:127.0.0.1 - - [16/May/2025:17:50:21 +0000] "GET /api/restaurants HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-05-16 20:50:35 [INFO] ::ffff:127.0.0.1 - - [16/May/2025:17:50:35 +0000] "GET /api/restaurants HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-05-16 20:53:32 [INFO] ::ffff:127.0.0.1 - - [16/May/2025:17:53:32 +0000] "GET /api/restaurants HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-05-16 20:53:37 [INFO] ::ffff:127.0.0.1 - - [16/May/2025:17:53:37 +0000] "GET /api/reservations?user_id=2 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-05-16 21:18:15 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-16 21:18:15 [INFO] 🌐 App ready at: http://localhost:4000
+2025-05-16 21:18:15 [INFO] 🌍 Environment: staging
+2025-05-16 21:19:17 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-16 21:19:17 [INFO] 🌐 App ready at: http://localhost:4000
+2025-05-16 21:19:17 [INFO] 🌍 Environment: staging
+2025-05-16 21:20:16 [INFO] ::ffff:127.0.0.1 - - [16/May/2025:18:20:16 +0000] "GET /api/restaurants HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-05-16 21:23:19 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-18 17:22:00 [INFO] 🌐 App ready at: http://localhost:4000
+2025-05-18 17:22:00 [INFO] 🌍 Environment: staging
+2025-05-18 17:40:49 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-20 01:20:27 [INFO] 🌐 App ready at: http://localhost:4000
+2025-05-20 01:20:27 [INFO] 🌍 Environment: staging
+2025-05-21 12:05:40 [INFO] ::ffff:127.0.0.1 - - [21/May/2025:09:05:40 +0000] "POST /api/auth/login HTTP/1.1" 401 34 "-" "okhttp/4.12.0"
+2025-05-21 12:52:25 [INFO] ::ffff:127.0.0.1 - - [21/May/2025:09:52:25 +0000] "POST /api/users/register HTTP/1.1" 201 93 "-" "okhttp/4.12.0"
+2025-05-21 12:53:08 [INFO] ::ffff:127.0.0.1 - - [21/May/2025:09:53:08 +0000] "POST /api/auth/login HTTP/1.1" 200 427 "-" "okhttp/4.12.0"
+2025-05-21 12:53:08 [INFO] ::ffff:127.0.0.1 - - [21/May/2025:09:53:08 +0000] "GET /api/restaurants HTTP/1.1" 200 2772 "-" "okhttp/4.12.0"
+2025-05-21 12:53:16 [INFO] ::ffff:127.0.0.1 - - [21/May/2025:09:53:16 +0000] "GET /api/reservations?user_id=1 HTTP/1.1" 200 1080 "-" "okhttp/4.12.0"
+2025-05-21 12:54:56 [INFO] ::ffff:127.0.0.1 - - [21/May/2025:09:54:56 +0000] "GET /api/restaurants HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-05-21 12:55:00 [INFO] ::ffff:127.0.0.1 - - [21/May/2025:09:55:00 +0000] "GET /api/reservations?user_id=1 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-05-21 12:55:21 [INFO] ::ffff:127.0.0.1 - - [21/May/2025:09:55:21 +0000] "POST /api/reservations HTTP/1.1" 201 104 "-" "okhttp/4.12.0"
+2025-05-21 12:59:32 [INFO] ::ffff:127.0.0.1 - - [21/May/2025:09:59:32 +0000] "GET /api/reservations?user_id=1 HTTP/1.1" 200 1433 "-" "okhttp/4.12.0"
+2025-05-21 12:59:39 [INFO] ::ffff:127.0.0.1 - - [21/May/2025:09:59:39 +0000] "GET /api/reservations?user_id=1 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-05-21 13:14:03 [INFO] ::ffff:127.0.0.1 - - [21/May/2025:10:14:03 +0000] "GET /api/restaurants HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-05-21 13:14:33 [INFO] ::ffff:127.0.0.1 - - [21/May/2025:10:14:33 +0000] "GET /api/reservations?user_id=1 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-05-21 13:14:44 [INFO] ::ffff:127.0.0.1 - - [21/May/2025:10:14:44 +0000] "POST /api/reservations HTTP/1.1" 201 104 "-" "okhttp/4.12.0"
+2025-05-21 13:17:24 [INFO] ::ffff:127.0.0.1 - - [21/May/2025:10:17:24 +0000] "POST /api/reservations HTTP/1.1" 201 104 "-" "okhttp/4.12.0"
+2025-05-21 13:17:25 [INFO] ::ffff:127.0.0.1 - - [21/May/2025:10:17:25 +0000] "GET /api/reservations?user_id=1 HTTP/1.1" 200 2163 "-" "okhttp/4.12.0"
+2025-05-21 13:17:37 [INFO] ::ffff:127.0.0.1 - - [21/May/2025:10:17:37 +0000] "GET /api/reservations?user_id=1 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-05-21 13:18:06 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-25 10:07:04 [INFO] 🌐 App ready at: http://localhost:4000
+2025-05-25 10:07:04 [INFO] 🌍 Environment: staging
+2025-05-25 10:07:20 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:07:07:20 +0000] "GET /api/restaurants HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-05-25 10:07:27 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:07:07:27 +0000] "GET /api/reservations?user_id=1 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-05-25 10:08:41 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:07:08:41 +0000] "POST /api/auth/login HTTP/1.1" 200 427 "-" "okhttp/4.12.0"
+2025-05-25 10:08:41 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:07:08:41 +0000] "GET /api/restaurants HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-05-25 10:08:56 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:07:08:56 +0000] "POST /api/reservations HTTP/1.1" 201 104 "-" "okhttp/4.12.0"
+2025-05-25 10:08:58 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:07:08:58 +0000] "GET /api/reservations?user_id=1 HTTP/1.1" 200 2518 "-" "okhttp/4.12.0"
+2025-05-25 10:09:20 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:07:09:20 +0000] "GET /api/restaurants HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-05-25 10:09:22 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:07:09:22 +0000] "GET /api/reservations?user_id=1 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-05-25 10:11:05 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:07:11:05 +0000] "GET /api/reservations?user_id=1 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-05-25 10:15:25 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
+2025-05-25 10:15:26 [INFO] 🌐 App ready at: http://localhost:4000
+2025-05-25 10:15:26 [INFO] 🌍 Environment: staging
+2025-05-25 10:15:32 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:07:15:32 +0000] "GET /api/reservations?user_id=1 HTTP/1.1" 200 2518 "-" "okhttp/4.12.0"
+2025-05-25 10:18:14 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:07:18:14 +0000] "GET /api/reservations?user_id=1 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-05-25 10:18:25 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:07:18:25 +0000] "GET /api/reservations?user_id=1 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-05-25 10:21:20 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:07:21:20 +0000] "GET /api/restaurants HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-05-25 10:21:47 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:07:21:47 +0000] "GET /api/reservations?user_id=1 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-05-25 11:33:10 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:08:33:10 +0000] "GET /api/restaurants HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-05-25 11:33:13 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:08:33:13 +0000] "GET /api/reservations?user_id=1 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-05-25 11:39:08 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:08:39:08 +0000] "GET /api/reservations?user_id=1 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-05-25 11:39:27 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:08:39:27 +0000] "PUT /api/reservations/a288267f-3622-11f0-b9d0-3681c1edf024 HTTP/1.1" 200 47 "-" "okhttp/4.12.0"
+2025-05-25 11:39:27 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:08:39:27 +0000] "GET /api/reservations?user_id=1 HTTP/1.1" 200 2518 "-" "okhttp/4.12.0"
+2025-05-25 11:49:17 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:08:49:17 +0000] "PUT /api/reservations/a288267f-3622-11f0-b9d0-3681c1edf024 HTTP/1.1" 200 47 "-" "okhttp/4.12.0"
+2025-05-25 11:49:17 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:08:49:17 +0000] "GET /api/reservations?user_id=1 HTTP/1.1" 200 2518 "-" "okhttp/4.12.0"
+2025-05-25 11:54:51 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:08:54:51 +0000] "GET /api/reservations?user_id=1 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-05-25 11:55:56 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:08:55:56 +0000] "PUT /api/reservations/a288267f-3622-11f0-b9d0-3681c1edf024 HTTP/1.1" 200 47 "-" "okhttp/4.12.0"
+2025-05-25 11:55:56 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:08:55:56 +0000] "GET /api/reservations?user_id=1 HTTP/1.1" 200 2518 "-" "okhttp/4.12.0"
+2025-05-25 11:58:17 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:08:58:17 +0000] "PUT /api/reservations/a288267f-3622-11f0-b9d0-3681c1edf024 HTTP/1.1" 200 47 "-" "okhttp/4.12.0"
+2025-05-25 11:58:17 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:08:58:17 +0000] "GET /api/reservations?user_id=1 HTTP/1.1" 200 2518 "-" "okhttp/4.12.0"
+2025-05-25 12:56:33 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:09:56:33 +0000] "GET /api/reservations?user_id=1 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-05-25 12:56:50 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:09:56:50 +0000] "PUT /api/reservations/a288267f-3622-11f0-b9d0-3681c1edf024 HTTP/1.1" 200 47 "-" "okhttp/4.12.0"
+2025-05-25 12:56:50 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:09:56:50 +0000] "GET /api/reservations?user_id=1 HTTP/1.1" 200 2518 "-" "okhttp/4.12.0"
+2025-05-25 12:57:04 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:09:57:04 +0000] "PUT /api/reservations/12784e66-a69e-49d4-a631-dd113b3a761d HTTP/1.1" 200 47 "-" "okhttp/4.12.0"
+2025-05-25 12:57:04 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:09:57:04 +0000] "GET /api/reservations?user_id=1 HTTP/1.1" 200 2518 "-" "okhttp/4.12.0"
+2025-05-25 12:58:15 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:09:58:15 +0000] "PUT /api/reservations/12784e66-a69e-49d4-a631-dd113b3a761d HTTP/1.1" 200 47 "-" "okhttp/4.12.0"
+2025-05-25 12:58:15 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:09:58:15 +0000] "GET /api/reservations?user_id=1 HTTP/1.1" 200 2518 "-" "okhttp/4.12.0"
+2025-05-25 13:03:45 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:10:03:45 +0000] "GET /api/reservations?user_id=1 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-05-25 13:04:11 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:10:04:11 +0000] "GET /api/restaurants HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-05-25 13:04:29 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:10:04:29 +0000] "GET /api/reservations?user_id=1 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-05-25 13:05:03 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:10:05:03 +0000] "PUT /api/reservations/6d43cfd9-3494-42d0-a9ec-c8eebc895aa4 HTTP/1.1" 200 47 "-" "okhttp/4.12.0"
+2025-05-25 13:05:03 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:10:05:03 +0000] "GET /api/reservations?user_id=1 HTTP/1.1" 200 2518 "-" "okhttp/4.12.0"
+2025-05-25 13:19:23 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:10:19:23 +0000] "GET /api/reservations?user_id=1 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-05-25 13:19:53 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:10:19:53 +0000] "GET /api/reservations?user_id=1 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-05-25 13:20:20 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:10:20:20 +0000] "GET /api/restaurants HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-05-25 13:20:29 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:10:20:29 +0000] "GET /api/reservations?user_id=1 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-05-25 13:22:26 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:10:22:26 +0000] "GET /api/reservations?user_id=1 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-05-25 13:22:46 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:10:22:46 +0000] "GET /api/restaurants HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-05-25 13:22:51 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:10:22:51 +0000] "GET /api/reservations?user_id=1 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-05-25 13:23:00 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:10:23:00 +0000] "PUT /api/reservations/6d43cfd9-3494-42d0-a9ec-c8eebc895aa4 HTTP/1.1" 200 47 "-" "okhttp/4.12.0"
+2025-05-25 13:23:00 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:10:23:00 +0000] "GET /api/reservations?user_id=1 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-05-25 13:27:04 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:10:27:04 +0000] "GET /api/reservations?user_id=1 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-05-25 13:27:20 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:10:27:20 +0000] "GET /api/reservations?user_id=1 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-05-25 13:27:34 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:10:27:34 +0000] "GET /api/reservations?user_id=1 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-05-25 13:27:51 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:10:27:51 +0000] "GET /api/reservations?user_id=1 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-05-25 13:28:09 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:10:28:09 +0000] "PUT /api/reservations/6d43cfd9-3494-42d0-a9ec-c8eebc895aa4 HTTP/1.1" 200 47 "-" "okhttp/4.12.0"
+2025-05-25 13:28:09 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:10:28:09 +0000] "GET /api/reservations?user_id=1 HTTP/1.1" 200 2518 "-" "okhttp/4.12.0"
+2025-05-25 13:28:26 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:10:28:26 +0000] "GET /api/reservations?user_id=1 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-05-25 13:28:31 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:10:28:31 +0000] "GET /api/reservations?user_id=1 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-05-25 13:30:29 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:10:30:29 +0000] "GET /api/reservations?user_id=1 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-05-25 13:30:52 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:10:30:52 +0000] "GET /api/reservations?user_id=1 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-05-25 14:41:11 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:11:41:11 +0000] "GET /api/reservations?user_id=1 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-05-25 14:41:23 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:11:41:23 +0000] "GET /api/reservations?user_id=1 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-05-25 14:43:57 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:11:43:57 +0000] "PUT /api/reservations/6d43cfd9-3494-42d0-a9ec-c8eebc895aa4 HTTP/1.1" 200 47 "-" "okhttp/4.12.0"
+2025-05-25 14:43:57 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:11:43:57 +0000] "GET /api/reservations?user_id=1 HTTP/1.1" 200 2518 "-" "okhttp/4.12.0"
+2025-05-25 14:48:54 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:11:48:54 +0000] "GET /api/reservations?user_id=1 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-05-25 14:50:09 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:11:50:09 +0000] "GET /api/reservations?user_id=1 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-05-25 14:53:55 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:11:53:55 +0000] "GET /api/reservations?user_id=1 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-05-25 14:56:54 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:11:56:54 +0000] "PUT /api/reservations/27180e94-9305-47cc-8b1d-87976a40de1a HTTP/1.1" 200 47 "-" "okhttp/4.12.0"
+2025-05-25 14:56:54 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:11:56:54 +0000] "GET /api/reservations?user_id=1 HTTP/1.1" 200 2518 "-" "okhttp/4.12.0"
+2025-05-25 14:57:30 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:11:57:30 +0000] "PUT /api/reservations/6d43cfd9-3494-42d0-a9ec-c8eebc895aa4 HTTP/1.1" 200 47 "-" "okhttp/4.12.0"
+2025-05-25 14:57:30 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:11:57:30 +0000] "GET /api/reservations?user_id=1 HTTP/1.1" 200 2520 "-" "okhttp/4.12.0"
+2025-05-25 15:27:51 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:12:27:51 +0000] "GET /api/reservations?user_id=1 HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-05-25 15:28:12 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:12:28:12 +0000] "POST /api/reservations HTTP/1.1" 201 104 "-" "okhttp/4.12.0"
+2025-05-25 15:28:13 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:12:28:13 +0000] "GET /api/reservations?user_id=1 HTTP/1.1" 200 2875 "-" "okhttp/4.12.0"
+2025-05-25 15:28:33 [INFO] ::ffff:127.0.0.1 - - [25/May/2025:12:28:33 +0000] "GET /api/restaurants HTTP/1.1" 304 - "-" "okhttp/4.12.0"
+2025-05-25 15:29:00 [INFO] 
+🛑 SIGINT received. Shutting down server gracefully...
